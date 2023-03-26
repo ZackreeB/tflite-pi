@@ -44,14 +44,14 @@ sh setup.sh
 First, clone this Git repo onto your Raspberry Pi like this:
 
 ```
-git clone https://github.com/tensorflow/examples --depth 1
+git clone https://github.com/ywanglab/tflite-pi.git
 ```
 
 Then use our script to install a couple Python packages, and
 download the TFLite model:
 
 ```
-cd examples/lite/examples/image_classification/raspberry_pi
+cd tflite-pi
 
 # Run this script to install the required dependencies and download the TFLite models.
 sh setup.sh
